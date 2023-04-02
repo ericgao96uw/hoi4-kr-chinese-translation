@@ -1,0 +1,814 @@
+# List of names and logos for intelligence agencies
+# available trigger will determine if the logo is in the list of available logos or not
+# names is a list of names. Can be a localization entry, or the name directly. A random name will be picked from them.
+
+##-------------------------------
+##
+##	KAISERREICH ONES GOES HERE
+##
+##-------------------------------
+
+#阿根廷
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_arg
+	names = { "情报秘书处" }
+
+	default = { tag = ARG }
+	available = { original_tag = ARG }
+}
+
+#亚美尼亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_arm
+	names = { "国家安全局" }
+
+	default = { tag = ARM }
+	available = { original_tag = ARM }
+}
+
+#澳大拉西亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_ast
+	names = { "澳大拉西亚情报团" }
+
+	default = { tag = AST }
+	available = { original_tag = AST }
+}
+
+#奥匈帝国
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_aus
+	names = { "证据档案局" }
+
+	default = { tag = AUS }
+	available = { original_tag = AUS }
+}
+
+#波罗的
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_bat
+	names = { "防卫军委员会" }
+
+	default = { tag = BAT }
+	available = { original_tag = BAT }
+}
+
+#比利时
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_bel # vanilla icon
+	names = { "情报与安全总局" }
+
+	default = { tag = BEL }
+	available = { original_tag = BEL }
+}
+
+#巴西
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_bra
+	names = { "国防委员会" }
+
+	default = { tag = BRA }
+	available = { original_tag = BRA }
+}
+
+#保加利亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_bul
+	names = { "国家安全局" }
+
+	default = { tag = BUL }
+	available = { original_tag = BUL }
+}
+
+#加拿大
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_can
+	names = { "皇家骑警政治保安处" }
+
+	default = { tag = CAN }
+	available = { original_tag = CAN }
+}
+
+#国民党左派
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_chi # vanilla icon
+	names = { "中央情报与特别行动局" }
+
+	default = { tag = CHI }
+	available = { original_tag = CHI }
+}
+
+#美利坚联合工团
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_csa
+	names = { "中央保卫局" }
+
+	default = { tag = CSA }
+	available = { original_tag = CSA }
+}
+
+#丹麦
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_den
+	names = { "总参谋部情报局" }
+
+	default = { tag = DEN }
+	available = { original_tag = DEN }
+}
+
+#埃及
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_egy
+	names = { "情报总局" }
+
+	default = { tag = EGY }
+	available = { original_tag = EGY }
+}
+
+#不列颠联盟
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_eng
+	names = { "革命输出督管局" }
+
+	default = { tag = ENG }
+	available = { original_tag = ENG }
+}
+
+#爱沙尼亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_est
+	names = { "保安警务署" }
+
+	default = { tag = EST }
+	available = { original_tag = EST }
+}
+
+#芬兰
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_fin # vanilla icon
+	names = { "国家警察局" }
+
+	default = { tag = FIN }
+	available = { original_tag = FIN }
+}
+
+#奉天政府
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_fng
+	names = { "军政署" }
+
+	default = { tag = FNG }
+	available = { original_tag = FNG }
+}
+
+#巴哥塔尼亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_arg	# uses ARG icon for now
+	names = { "国家安全委员会" }
+
+	default = { tag = FOP }
+	available = { original_tag = FOP }
+}
+
+#法兰西公社
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_fra
+	names = { "情报总局" }
+
+	default = { tag = FRA }
+	available = { original_tag = FRA }
+}
+
+#英国
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_uk # vanilla icon
+	names = { "军情六处" }
+
+	default = { tag = GBR }
+	available = { original_tag = GBR }
+}
+
+#德属东亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_gea
+	names = { "海军情报局" }
+
+	default = { tag = GEA }
+	available = { original_tag = GEA }
+}
+
+#德意志帝国
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_ger
+	names = { "最高陆军指挥部第三局b处" }
+
+	default = {
+		OR = {
+			tag = GER
+			tag = GEX
+		}
+	}
+	available = {
+		OR = {
+			original_tag = GER
+			tag = GEX #MAF
+		}
+	}
+}
+
+#李宗仁
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_chi
+	names = { "军事委员会调查统计局" }
+	default = { tag = GXC }
+	available = {
+		tag = GXC
+		has_country_leader = { character = GXC_li_zongren }
+	}
+}
+
+intelligence_agency = {
+#希腊
+	picture = GFX_intelligence_agency_logo_kr_gre
+	names = { "中央情报局" }
+
+	default = { tag = GRE }
+	available = { original_tag = GRE }
+}
+
+#荷兰
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_hol
+	names = { "总参三局" }
+
+	default = { tag = HOL }
+	available = {
+		original_tag = HOL
+		has_socialist_government = no
+	}
+}
+
+#海地
+intelligence_agency = {
+
+	names = { "国家情报局" }
+	picture = GFX_intelligence_agency_logo_generic_1
+
+	default = { tag = HAI }
+	available = {
+		original_tag = HAI
+	}
+}
+
+#荷兰
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_eng
+	names = { "科雷利路六号小组" }
+
+	default = { tag = HOL }
+	available = {
+		original_tag = HOL
+		has_socialist_government = yes
+	}
+}
+
+#印度
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_ind
+	names = { "研究分析室" }
+
+	default = {
+		OR = {
+			tag = PRF
+			tag = HND
+			tag = MDR
+			tag = MYS
+			tag = TRV
+		}
+	}
+	available = {
+		OR = {
+			original_tag = PRF
+			original_tag = HND
+			original_tag = MDR
+			original_tag = MYS
+			original_tag = TRV
+		}
+	}
+}
+
+#爱尔兰
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_ire
+	names = { "军事情报局" }
+
+	default = { tag = IRE }
+	available = { original_tag = IRE }
+}
+
+#意大利
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_ita # vanilla icon
+	names = { "军事情报局" }
+
+	default = {
+		OR = {
+			tag = SRD # Direct Successor
+			tag = SIC
+			tag = TUS
+			tag = EMI
+			tag = ITA
+		}
+	}
+	available = {
+		OR = {
+			original_tag = SRD # Direct Successor
+			original_tag = SIC
+			original_tag = TUS
+			original_tag = EMI
+			original_tag = ITA
+		}
+	}
+}
+
+#日本
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_jap # vanilla icon
+	names = { "参谋本部第二部" "军令部第三部" }
+
+	default = { tag = JAP }
+	available = { original_tag = JAP }
+}
+
+#拉脱维亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_lat
+	names = { "军事情报安全局" } # Militārās Izlūkošanas un Drošības Dienests
+
+	default = { tag = LAT }
+	available = { original_tag = LAT }
+}
+
+#使馆城市
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_lec
+	names = { "上海公共租界工部局警务处政治部" }
+
+	default = { tag = LEC }
+	available = { original_tag = LEC }
+}
+
+#立陶宛
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_lit
+	names = { "第二行动局" }
+
+	default = { tag = LIT }
+	available = { original_tag = LIT }
+}
+
+#北非法国
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_nfa
+	names = { "总参二局" }
+
+	default = { tag = NFA }
+	available = { original_tag = NFA }
+}
+
+#挪威
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_nor
+	names = { "未知密探组织" }
+
+	default = { tag = NOR }
+	available = { original_tag = NOR }
+}
+
+#奥斯曼
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_ott
+	names = { "帝国安全局" "国家安全局" }
+
+	default = { tag = TUR }
+	available = { original_tag = TUR }
+}
+
+#教宗国
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_pap
+	names = { "存在" "神圣同盟" }
+
+	default = { tag = PAP }
+	available = { original_tag = PAP }
+}
+
+#波兰
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_pol # vanilla icon
+	names = { "第二局" }
+
+	default = { tag = POL }
+	available = { original_tag = POL }
+}
+
+#葡萄牙
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_por # vanilla icon
+	names = { "国家安全警备总署" }
+
+	default = { tag = POR }
+	available = { original_tag = POR }
+}
+
+#罗马尼亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_rom 	# vanilla icon
+	names = { "特别情报局" }
+
+	default = { tag = ROM }
+	available = { original_tag = ROM }
+}
+
+#英属印度
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_raj
+	names = { "特别政治部" }
+
+	default = {
+		tag = RAJ
+	}
+	available = {
+		original_tag = RAJ
+	}
+}
+
+#俄罗斯
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_rus
+	names = { "公共安全与秩序保卫部" }
+
+	default = { tag = RUS }
+	available = { original_tag = RUS }
+}
+
+#南非
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_saf
+	names = { "南非警务处政治部" }
+
+	default = { tag = SAF }
+	available = {
+		original_tag = SAF
+		NOT = { has_focus_tree = natal_focus }
+	}
+}
+
+#南非
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_nat
+	names = { "纳塔尔骑警政治部" }
+
+	default = { tag = SAF }
+	available = {
+		original_tag = SAF
+		has_focus_tree = natal_focus
+	}
+}
+
+#沙特
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_sau
+	names = { "调查总局" }
+
+	default = {
+		OR = {
+			tag = SAU
+			tag = JBS
+			tag = HEJ
+		}
+	}
+	available = {
+		OR = {
+			original_tag = SAU
+			original_tag = JBS
+			original_tag = HEJ
+		}
+	}
+}
+
+#斯堪的纳维亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_sca
+	names = { "联合情报局" } # Joint Intelligent Service
+
+	default = { tag = SCA }
+	available = { original_tag = SCA }
+}
+
+#塞尔维亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_ser
+	names = { "情报部" }
+
+	default = { tag = SER }
+	available = { original_tag = SER }
+}
+
+#山西
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "保安团" }
+
+	default = { tag = SHX }
+	available = { original_tag = SHX }
+}
+#暹罗
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_sia
+	names = { "秘密情报局" }
+
+	default = { tag = SIA }
+	available = { original_tag = SIA }
+}
+
+#FAI
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_spa
+	names = { "民兵情报部" }
+
+	default = { tag = SWF }
+	available = { original_tag = SWF }
+}
+
+#西班牙
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_spr
+	names = { "安全总局" }
+
+	default = { tag = SPA }
+	available = { original_tag = SPA }
+}
+
+#意大利社会主义共和国
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_sri
+	names = { "隐秘阵线" }
+
+	default = { tag = SRI }
+	available = { original_tag = SRI }
+}
+
+#俄罗斯社会主义共和国
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_sov # vanilla icon
+	names = { "契卡" }
+
+	default = { tag = SOV }
+	available = { original_tag = SOV }
+}
+
+#瑞典
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_swe
+	names = { "公共安全局" }
+
+	default = { tag = SWE }
+	available = { original_tag = SWE }
+}
+
+#瑞士
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_swi
+	names = { "军事情报局" }
+
+	default = { tag = SWI }
+	available = { original_tag = SWI }
+}
+
+#美利坚联盟国
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_tex
+	names = { "军事情报局" }
+
+	default = { tag = TEX }
+	available = { original_tag = TEX }
+}
+
+#乌克兰
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_ukr
+	names = { "国土防卫军情报局" } # Osvidomchi Viddil Derzhavnoyi Varty
+
+	default = { tag = UKR }
+	available = { original_tag = UKR }
+}
+
+#白鲁塞尼亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_whr
+	names = { "行动队" }
+
+	default = { tag = WHR }
+	available = { original_tag = WHR }
+}
+
+#罗德西亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_zim
+	names = { "罗得西亚情报团" }
+
+	default = { tag = ZIM }
+	available = { original_tag = ZIM }
+}
+
+#美国
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_usa # vanilla icon
+	names = { "战略情报局" }
+
+	default = {
+		OR = {
+			tag = USA
+			tag = PSA
+			tag = NEE
+		}
+	}
+	available = {
+		OR = {
+			original_tag = USA
+			original_tag = PSA
+			original_tag = NEE
+		}
+	}
+}
+
+#罗得西亚
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_kr_ZIM
+	names = { "罗得西亚情报团" }
+
+	default = { tag = ZIM }
+	available = { original_tag = ZIM }
+}
+
+#朝鲜
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_chi
+	names = { "韩国陆军情报团" }
+
+	default = { tag = KOR }
+	available = { original_tag = KOR }
+}
+
+##-------------------------------
+##
+##	VANILLA GENERIC GOES HERE
+##
+##-------------------------------
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office" }
+
+	available = {
+		NOT = { tag = HAI }
+	}
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office" }
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office" }
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office" }
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office" }
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_6
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office" }
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office" }
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office" }
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_9
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office" }
+
+	available = {
+		has_socialist_government = yes
+	}
+
+	default = { always = yes }
+}

@@ -1,0 +1,2452 @@
+﻿do_russian_renames_in_europe = {
+  if = {
+    limit = {
+      state = 10
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "华沙瓦"  # Varshava
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3544
+      name = "华沙瓦"  # Varshava
+    }
+    set_province_name = {
+      id = 9508
+      name = "罗兹"  # Lodz
+    }
+  }
+  else_if = {
+    limit = {
+      state = 11
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_german
+    clr_state_flag = renamed_state_polish
+    clr_state_flag = renamed_state_belarusian
+    set_state_name = "科夫诺"  # Kovno
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6296
+      name = "科夫诺"  # Kovno
+    }
+  }
+  else_if = {
+    limit = {
+      state = 12
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_lithuanian
+    set_state_name = "利夫兰迪亚"  # Liflandiya
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 9501
+      name = "弗拉基米尔利夫斯基"  # Vladimirets Livonskiy
+    }
+  }
+  else_if = {
+    limit = {
+      state = 13
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "爱斯特兰迪亚"  # Estlandiya
+    clr_state_flag = renamed_state_estonian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 185
+      name = "阿伦斯堡"  # Arensburg
+    }
+    set_province_name = {
+      id = 3152
+      name = "列韦利"  # Revel
+    }
+    set_province_name = {
+      id = 4640
+      name = "纳尔瓦"  # Narva
+    }
+  }
+  else_if = {
+    limit = {
+      state = 78
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_ukrainian
+    set_state_name = "比萨拉比亚"  # Bessarabia
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3707
+      name = "基希尼奥夫"  # Kishinyev
+    }
+    set_province_name = {
+      id = 6727
+      name = "阿克曼"  # Akkerman
+    }
+  }
+  else_if = {
+    limit = {
+      state = 80
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_romanian
+    clr_state_flag = renamed_state_german
+    clr_state_flag = renamed_state_ukrainian
+    set_state_name = "切尔诺维策"  # Chernovitsy
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 9548
+      name = "切尔诺维策"  # Chernovitsy
+    }
+  }
+  else_if = {
+    limit = {
+      state = 87
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "卡利什"  # Kalish
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 9546
+      name = "卡利什"  # Kalish
+    }
+  }
+  else_if = {
+    limit = {
+      state = 88
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "克拉科夫"  # Krakov
+    clr_state_flag = renamed_state_german
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 9427
+      name = "克拉科夫"  # Krakov
+    }
+  }
+  else_if = {
+    limit = {
+      state = 89
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "斯坦尼斯拉沃夫"  # Stanislavov
+    clr_state_flag = renamed_state_ukrainian
+    clr_state_flag = renamed_state_german
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11411
+      name = "斯坦尼斯拉沃夫"  # Stanislavov
+    }
+  }
+  else_if = {
+    limit = {
+      state = 90
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "凯尔采"  # Keltsy
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3497
+      name = "凯尔采"  # Keltsy
+    }
+    set_province_name = {
+      id = 3586
+      name = "琴斯托霍夫"  # Chenstokhov
+    }
+  }
+  else_if = {
+    limit = {
+      state = 91
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "利沃夫"  # Lvov
+    clr_state_flag = renamed_state_ukrainian
+    clr_state_flag = renamed_state_german
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11479
+      name = "利沃夫"  # Lvov
+    }
+  }
+  else_if = {
+    limit = {
+      state = 92
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "柳布林"  # Lyublin
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 402
+      name = "谢德尔采"  # Sedltse
+    }
+    set_province_name = {
+      id = 3559
+      name = "柳布林"  # Lyublin
+    }
+  }
+  else_if = {
+    limit = {
+      state = 93
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_polish
+    clr_state_flag = renamed_state_belarusian
+    set_state_name = "布列斯特-立托夫斯克"  # Brest-Litovsk
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3392
+      name = "布列斯特-立托夫斯克"  # Brest-Litovsk
+    }
+  }
+  else_if = {
+    limit = {
+      state = 94
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_polish
+    clr_state_flag = renamed_state_lithuanian
+    set_state_name = "沃卡维斯克"  # Volkovysk
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 13736
+      name = "沃卡维斯克"  # Volkovysk
+    }
+  }
+  else_if = {
+    limit = {
+      state = 95
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_lithuanian
+    set_state_name = endo_state_95
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 560
+      name = endo_vp_560
+    }
+  }
+  else_if = {
+    limit = {
+      state = 96
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_german
+    clr_state_flag = renamed_state_polish
+    clr_state_flag = renamed_state_belarusian
+    set_state_name = "维尔纳"  # Vilna
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3320
+      name = "维尔纳"  # Vilna
+    }
+    set_province_name = {
+      id = 3393
+      name = "格罗德诺"  # Grodno
+    }
+  }
+  else_if = {
+    limit = {
+      state = 97
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_lithuanian
+    clr_state_flag = renamed_state_belarusian
+    set_state_name = "别洛斯托克"  # Belostok
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3254
+      name = "苏瓦尔基"  # Suvalki
+    }
+    set_province_name = {
+      id = 11301
+      name = "别洛斯托克"  # Belostok
+    }
+  }
+  else_if = {
+    limit = {
+      state = 98
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_german
+    set_state_name = "普洛茨克"  # Plotsk
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3230
+      name = "普洛茨克"  # Plotsk
+    }
+    set_province_name = {
+      id = 11274
+      name = "洛姆扎"  # Lomzha
+    }
+  }
+  else_if = {
+    limit = {
+      state = 111
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_swedish
+    set_state_name = endo_state_111_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3137
+      name = endo_vp_3137_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 145
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_145_russian
+    set_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_swedish
+  }
+  else_if = {
+    limit = {
+      state = 146
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_swedish
+    set_state_name = endo_state_146_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 9206
+      name = endo_vp_9206_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 147
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_swedish
+    set_state_name = endo_state_147_russian
+    set_state_flag = renamed_state_russian
+  }
+  else_if = {
+    limit = {
+      state = 148
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_swedish
+    set_state_name = endo_state_148_russian
+    set_state_flag = renamed_state_russian
+  }
+  else_if = {
+    limit = {
+      state = 149
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_swedish
+    set_state_name = endo_state_149_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3122
+      name = endo_vp_3122_russian
+    }
+    set_province_name = {
+      id = 11121
+      name = endo_vp_11121_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 150
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_swedish
+    set_state_name = endo_state_150_russian
+    set_state_flag = renamed_state_russian
+  }
+  else_if = {
+    limit = {
+      state = 189
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_polish
+    clr_state_flag = renamed_state_german
+    set_state_name = "萨莫吉希亚"  # Zhemaitija
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6314
+      name = endo_vp_6314
+    }
+    set_province_name = {
+      id = 6376
+      name = "沙夫里"  # Shavli
+    }
+  }
+  else_if = {
+    limit = {
+      state = 190
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_latvian
+    clr_state_flag = renamed_state_lithuanian
+    set_state_name = "库尔兰迪亚"  # Kurlyandiya
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6342
+      name = "米塔瓦"  # Mitava
+    }
+    set_province_name = {
+      id = 9262
+      name = "利巴瓦"  # Libava
+    }
+  }
+  else_if = {
+    limit = {
+      state = 191
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_estonian
+    set_state_name = "尤里耶夫"  # Yuriev
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3174
+      name = "佩尔诺夫"  # Pernov
+    }
+    set_province_name = {
+      id = 9221
+      name = "尤里耶夫"  # Yuriev
+    }
+  }
+  else_if = {
+    limit = {
+      state = 192
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "敖德萨"  # Odessa
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11670
+      name = "敖德萨"  # Odessa
+    }
+  }
+  else_if = {
+    limit = {
+      state = 193
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "切尔尼戈夫"  # Chernigov
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3568
+      name = "切尔尼戈夫"  # Chernigov
+    }
+  }
+  else_if = {
+    limit = {
+      state = 194
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "莫济里"  # Mozyr
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6232
+      name = "莫济里"  # Mozyr
+    }
+  }
+  else_if = {
+    limit = {
+      state = 197
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "尼古拉耶夫"  # Nikolayev
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11546
+      name = "尼古拉耶夫"  # Nikolayev
+    }
+  }
+  else_if = {
+    limit = {
+      state = 198
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "文尼察"  # Vinnitsa
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 9481
+      name = "文尼察"  # Vinnitsa
+    }
+  }
+  else_if = {
+    limit = {
+      state = 199
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "普罗斯库罗夫"  # Proskurov
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3457
+      name = "普罗斯库罗夫"  # Proskurov
+    }
+  }
+  else_if = {
+    limit = {
+      state = 200
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "亚历山德罗夫斯克"  # Aleksandrovsk
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11405
+      name = "亚历山德罗夫斯克"  # Aleksandrovsk
+    }
+  }
+  else_if = {
+    limit = {
+      state = 201
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "日托米尔"  # Zhitomir
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11514
+      name = "日托米尔"  # Zhitomir
+    }
+  }
+  else_if = {
+    limit = {
+      state = 202
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "基辅"  # Kiyev
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 525
+      name = "基辅"  # Kiyev
+    }
+  }
+  else_if = {
+    limit = {
+      state = 203
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "切尔卡瑟"  # Cherkassy
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 488
+      name = "切尔卡瑟"  # Cherkassy
+    }
+  }
+  else_if = {
+    limit = {
+      state = 204
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "新格鲁多克"  # Novogrudok
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3309
+      name = endo_vp_3309
+    }
+    set_province_name = {
+      id = 9359
+      name = "新格鲁多克"  # Novogrudok
+    }
+  }
+  else_if = {
+    limit = {
+      state = 206
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "明斯克"  # Minsk
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11370
+      name = "明斯克"  # Minsk
+    }
+    set_province_name = {
+      id = 331
+      name = "博布鲁伊斯克"  # Bobruysk
+    }
+    set_province_name = {
+      id = 294
+      name = "鲍里索夫"  # Borisov
+    }
+  }
+  else_if = {
+    limit = {
+      state = 207
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "布拉斯拉夫"  # Braslav
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 233
+      name = "布拉斯拉夫"  # Braslav
+    }
+  }
+  else_if = {
+    limit = {
+      state = 213
+      has_state_flag = renamed_state_finnish
+    }
+    set_state_name = endo_state_213
+    clr_state_flag = renamed_state_finnish
+    set_province_name = {
+      id = 3134
+      name = endo_vp_3134
+    }
+  }
+  else_if = {
+    limit = {
+      state = 215
+      has_state_flag = renamed_state_finnish
+    }
+    set_state_name = endo_state_215
+    clr_state_flag = renamed_state_finnish
+  }
+  else_if = {
+    limit = {
+      state = 216
+      has_state_flag = renamed_state_finnish
+    }
+    set_state_name = endo_state_216
+    clr_state_flag = renamed_state_finnish
+    set_province_name = {
+      id = 11159
+      name = endo_vp_11159
+    }
+  }
+  else_if = {
+    limit = {
+      state = 221
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "哈尔科夫"  # Kharkov
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 418
+      name = "哈尔科夫"  # Kharkov
+    }
+  }
+  else_if = {
+    limit = {
+      state = 226
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "叶卡捷琳诺斯拉夫"  # Yekaterinoslav
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11437
+      name = "叶卡捷琳诺斯拉夫"  # Yekaterinoslav
+    }
+    set_province_name = {
+      id = 11561
+      name = "克里沃罗格"  # Krivoy Rog
+    }
+  }
+  else_if = {
+    limit = {
+      state = 227
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "尤佐夫卡"  # Yuzovka
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6474
+      name = "尤佐夫卡"  # Yuzovka
+    }
+    set_province_name = {
+      id = 9461
+      name = "卢甘斯克"  # Lugansk
+    }
+  }
+  else_if = {
+    limit = {
+      state = 228
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "旧别利斯克"  # Starobelsk
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 523
+      name = "旧别利斯克"  # Starobelsk
+    }
+  }
+  else_if = {
+    limit = {
+      state = 234
+      has_state_flag = renamed_state_ukrainian
+    }
+    set_state_name = endo_state_234
+    clr_state_flag = renamed_state_ukrainian
+    set_province_name = {
+      id = 3734
+      name = endo_vp_3734
+    }
+  }
+  else_if = {
+    limit = {
+      state = 235
+      has_state_flag = renamed_state_kazakh
+    }
+    set_state_name = endo_state_236
+    clr_state_flag = renamed_state_kazakh
+    set_province_name = {
+      id = 9753
+      name = endo_vp_9753
+    }
+  }
+  else_if = {
+    limit = {
+      state = 242
+      has_state_flag = renamed_state_belarusian
+    }
+    set_state_name = endo_state_242
+    clr_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 306
+      name = endo_vp_306
+    }
+    set_province_name = {
+      id = 11336
+      name = endo_vp_11336
+    }
+  }
+  else_if = {
+    limit = {
+      state = 243
+      has_state_flag = renamed_state_belarusian
+    }
+    set_state_name = endo_state_243
+    clr_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 9247
+      name = endo_vp_9247
+    }
+  }
+  else_if = {
+    limit = {
+      state = 341
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_greek
+    clr_state_flag = renamed_state_bulgaria
+    set_state_name = "阿德里安堡"  # Adrianopol
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11842
+      name = "阿德里安堡"  # Adrianopol
+    }
+  }
+  else_if = {
+    limit = {
+      state = 652
+      has_state_flag = renamed_state_kazakh
+    }
+    set_state_name = endo_state_652
+    clr_state_flag = renamed_state_kazakh
+    set_province_name = {
+      id = 12128
+      name = endo_vp_12128
+    }
+  }
+  else_if = {
+    limit = {
+      state = 655
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_german
+    clr_state_flag = renamed_state_polish
+    set_state_name = endo_state_655_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11312
+      name = "马里亚姆波尔"  # Maryampol
+    }
+  }
+  else_if = {
+    limit = {
+      state = 713
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_romanian
+    clr_state_flag = renamed_state_german
+    clr_state_flag = renamed_state_ukrainian
+    set_state_name = "苏恰瓦"  # Suchava
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6761
+      name = "苏恰瓦"  # Suchava
+    }
+  }
+  else_if = {
+    limit = {
+      state = 722
+      has_state_flag = renamed_state_finnish
+    }
+    clr_state_flag = renamed_state_finnish
+    set_state_name = endo_state_722
+    set_province_name = {
+      id = 9140
+      name = endo_vp_9140
+    }
+  }
+  else_if = {
+    limit = {
+      state = 755
+      has_state_flag = renamed_state_belarusian
+    }
+    set_state_name = endo_state_755
+    set_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 6326
+      name = endo_vp_6326
+    }
+    set_province_name = {
+      id = 11241
+      name = endo_vp_11241
+    }
+  }
+  else_if = {
+    limit = {
+      state = 773
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_greek
+    clr_state_flag = renamed_state_turkish
+    clr_state_flag = renamed_state_bulgaria
+    set_state_name = "君士坦丁堡"  # Konstantinopol
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 9833
+      name = "君士坦丁堡"  # Konstantinopol
+    }
+  }
+  else_if = {
+    limit = {
+      state = 791
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "莫吉廖夫-波多尔斯基"  # Mogilyev-Podolskiy
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6455
+      name = "莫吉廖夫-波多尔斯基"  # Mogilyev-Podolskiy
+    }
+  }
+  else_if = {
+    limit = {
+      state = 792
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_polish
+    set_state_name = "罗夫诺"  # Rovno
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11543
+      name = "罗夫诺"  # Rovno
+    }
+  }
+  else_if = {
+    limit = {
+      state = 821
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "巴甫洛格勒"  # Pavlograd
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 453
+      name = "巴甫洛格勒"  # Pavlograd
+    }
+  }
+  else_if = {
+    limit = {
+      state = 840
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_swedish
+    set_state_name = endo_state_840_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11105
+      name = endo_vp_11105_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 844
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_swedish
+    set_state_name = endo_state_844_russian
+    set_state_flag = renamed_state_russian
+  }
+  else_if = {
+    limit = {
+      state = 863
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_swedish
+    set_state_name = endo_state_863_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3083
+      name = endo_vp_3083_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 864
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_swedish
+    set_state_name = endo_state_864_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11141
+      name = endo_vp_11141_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 865
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    clr_state_flag = renamed_state_swedish
+    set_state_name = endo_state_865_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6082
+      name = endo_vp_6082_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 880
+      OR = {
+        has_state_flag = renamed_state_german
+        has_state_flag = renamed_state_lithuanian
+        has_state_flag = renamed_state_belarusian
+        has_state_flag = renamed_state_latvian
+      }
+    }
+    set_state_name = endo_state_880
+    clr_state_flag = renamed_state_german
+    clr_state_flag = renamed_state_lithuanian
+    clr_state_flag = renamed_state_belarusian
+    clr_state_flag = renamed_state_latvian
+    set_province_name = {
+      id = 310
+      name = endo_vp_310
+    }
+  }
+  else_if = {
+    limit = {
+      state = 1087
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "莫吉廖夫"  # Mogilev
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 9289
+      name = "莫吉廖夫"  # Mogilev
+    }
+  }
+  else_if = {
+    limit = {
+      state = 1088
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_flag = renamed_state_russian
+    set_state_name = "霍尔姆"  # Kholm
+    clr_state_flag = renamed_state_ukrainian
+    set_province_name = {
+      id = 9452
+      name = "霍尔姆"  # Kholm
+    }
+  }
+}
+do_russian_renames_in_middle_east = {
+  if = {
+    limit = {
+      state = 229
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_229_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11674
+      name = endo_vp_11674_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 230
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_230_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 12320
+      name = endo_vp_12320_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 231
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_231_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 1599
+      name = endo_vp_1599_russian
+    }
+    set_province_name = {
+      id = 3653
+      name = endo_vp_3653_russian
+    }
+    set_province_name = {
+      id = 3658
+      name = endo_vp_3658_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 340
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_340_russian
+    clr_state_flag = renamed_state_greek
+    clr_state_flag = renamed_state_bulgaria
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 947
+      name = endo_vp_947_russian
+    }
+  }
+  if = {
+    limit = {
+      state = 417
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_417_russian
+    clr_state_flag = renamed_state_arabic
+    set_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_turkish
+    set_province_name = {
+      id = 7604
+      name = endo_vp_7604_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 419
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_419_russian
+    clr_state_flag = renamed_state_arabic
+    set_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_turkish
+    set_province_name = {
+      id = 1896
+      name = endo_vp_1896_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 804
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_804_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 5029
+      name = endo_vp_5029_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 990
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_990_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 1536
+      name = endo_vp_1536_russian
+    }
+    set_province_name = {
+      id = 7661
+      name = endo_vp_7661_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 997
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_997_russian
+    clr_state_flag = renamed_state_belarusian
+    clr_state_flag = renamed_state_polish
+    clr_state_flag = renamed_state_lithuanian
+    set_state_flag = renamed_state_russian
+  }
+  else_if = {
+    limit = {
+      state = 998
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_998_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 4660
+      name = endo_vp_4660_russian
+    }
+    set_province_name = {
+      id = 6997
+      name = endo_vp_6997_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 1000
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_1000_russian
+    set_state_flag = renamed_state_russian
+  }
+  else_if = {
+    limit = {
+      state = 1001
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_1001
+    set_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_georgian
+    set_province_name = {
+      id = 10403
+      name = endo_vp_10403_russian
+    }
+    set_province_name = {
+      id = 11753
+      name = endo_vp_11753_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 1080
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_1080_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11617
+      name = endo_vp_11617_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 1081
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_1081_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6763
+      name = endo_vp_6763_russian
+    }
+  }
+}
+do_russian_renames_in_asia = {
+  if = {
+    limit = {
+      state = 328
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_328_russian
+    set_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_japanese
+    clr_state_flag = renamed_state_korean
+  }
+  else_if = {
+    limit = {
+      state = 329
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_329_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 10627
+      name = endo_vp_10627_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 330
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_330_russian
+    clr_state_flag = renamed_state_chinese
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 1834
+      name = endo_vp_1834_russian
+    }
+    set_province_name = {
+      id = 4801
+      name = endo_vp_4801
+    }
+    set_province_name = {
+      id = 10578
+      name = endo_vp_10578_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 402
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 7370
+      name = endo_vp_7370_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 404
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_404_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 4250
+      name = endo_vp_4250_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 405
+      NOT = {
+        has_state_flag = renamed_state_farsi
+      }
+    }
+    set_state_name = endo_state_405_farsi
+    clr_state_flag = renamed_state_kazakh
+    set_state_flag = renamed_state_farsi
+    set_province_name = {
+      id = 9605
+      name = endo_vp_9605_farsi
+    }
+    set_province_name = {
+      id = 10671
+      name = endo_vp_10671
+    }
+  }
+  else_if = {
+    limit = {
+      state = 407
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_407_russian
+    clr_state_flag = renamed_state_kazakh
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 10187
+      name = endo_vp_10187_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 536
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_536_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3962
+      name = endo_vp_3962_russian
+    }
+    set_province_name = {
+      id = 10444
+      name = endo_vp_10444_russian
+    }
+    set_province_name = {
+      id = 12421
+      name = endo_vp_12421_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 537
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_537_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 12446
+      name = endo_vp_12446_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 555
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_555_russian
+    set_state_flag = renamed_state_russian
+  }
+  else_if = {
+    limit = {
+      state = 564
+      has_state_flag = renamed_state_mongolian
+    }
+    set_state_name = endo_state_564
+    clr_state_flag = renamed_state_mongolian
+    set_province_name = {
+      id = 7816
+      name = endo_vp_7816
+    }
+  }
+  else_if = {
+    limit = {
+      state = 582
+      has_state_flag = renamed_state_kazakh
+    }
+    set_state_name = endo_state_582
+    clr_state_flag = renamed_state_kazakh
+    set_province_name = {
+      id = 4261
+      name = endo_vp_4261
+    }
+  }
+  else_if = {
+    limit = {
+      state = 583
+      has_state_flag = renamed_state_kazakh
+    }
+    set_state_name = endo_state_583
+    clr_state_flag = renamed_state_kazakh
+    set_province_name = {
+      id = 10284
+      name = endo_vp_10284
+    }
+  }
+  else_if = {
+    limit = {
+      state = 590
+      has_state_flag = renamed_state_kazakh
+    }
+    set_state_name = endo_state_590
+    clr_state_flag = renamed_state_kazakh
+    set_province_name = {
+      id = 1375
+      name = endo_vp_1375
+    }
+  }
+  else_if = {
+    limit = {
+      state = 584
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_584_russian
+    set_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_kazakh
+    set_province_name = {
+      id = 10742
+      name = endo_vp_10742_russian
+    }
+    set_province_name = {
+      id = 12333
+      name = endo_vp_12333_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 585
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_585
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 10353
+      name = endo_vp_10353_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 587
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_587_russian
+    set_state_flag = renamed_state_russian
+  }
+  else_if = {
+    limit = {
+      state = 618
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_618_russian
+    clr_state_flag = renamed_state_uighur
+    clr_state_flag = renamed_state_chinese
+    clr_state_flag = renamed_state_mongolian
+    set_state_flag = renamed_state_russian
+  }
+  else_if = {
+    limit = {
+      state = 654
+      has_state_flag = renamed_state_mongolian
+    }
+    set_state_name = endo_state_654
+    clr_state_flag = renamed_state_mongolian
+    set_province_name = {
+      id = 4800
+      name = endo_vp_4800
+    }
+  }
+  else_if = {
+    limit = {
+      state = 712
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_712_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 10353
+      name = endo_vp_10353_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 716
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_716_russian
+    set_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_japanese
+    clr_state_flag = renamed_state_korean
+    set_province_name = {
+      id = 11771
+      name = endo_vp_11771_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 717
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_717_russian
+    set_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_japanese
+    clr_state_flag = renamed_state_korean
+  }
+  else_if = {
+    limit = {
+      state = 732
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_732
+    clr_state_flag = renamed_state_kazakh
+    clr_state_flag = renamed_state_farsi
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 1384
+      name = endo_vp_1384_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 745
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_745_russian
+    set_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_chinese
+    clr_state_flag = renamed_state_korean
+    set_province_name = {
+      id = 1150
+      name = endo_vp_1150_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 810
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_810_russian
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 1864
+      name = endo_vp_1864_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 883
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_883_russian
+    set_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_japanese
+    clr_state_flag = renamed_state_korean
+  }
+  else_if = {
+    limit = {
+      state = 885
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_885_russian
+    clr_state_flag = renamed_state_chinese
+    clr_state_flag = renamed_state_japanese
+    clr_state_flag = renamed_state_korean
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 12412
+      name = endo_vp_12412_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 886
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_886_russian
+    clr_state_flag = renamed_state_chinese
+    clr_state_flag = renamed_state_japanese
+    clr_state_flag = renamed_state_korean
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 4572
+      name = endo_vp_4572_russian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 1084
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_1084_russian
+    clr_state_flag = renamed_state_chinese
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 7799
+      name = endo_vp_7799_russian
+    }
+    set_province_name = {
+      id = 12520
+      name = endo_vp_12520_russian
+    }
+  }
+}
+do_bielarusian_renames_in_europe = {
+  if = {
+    limit = {
+      state = 11
+      NOT = {
+        has_state_flag = renamed_state_belarusian
+      }
+    }
+    clr_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_german
+    clr_state_flag = renamed_state_polish
+    set_state_name = "寇纳"  # Koŭna
+    set_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 6296
+      name = "寇纳"  # Koŭna
+    }
+  }
+  else_if = {
+    limit = {
+      state = 93
+      NOT = {
+        has_state_flag = renamed_state_belarusian
+      }
+    }
+    clr_state_flag = renamed_state_polish
+    clr_state_flag = renamed_state_russian
+    set_state_name = "布列斯特"  # Brest
+    set_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 3392
+      name = "布列斯特"  # Brest
+    }
+  }
+  else_if = {
+    limit = {
+      state = 94
+      OR = {
+        has_state_flag = renamed_state_russian
+        has_state_flag = renamed_state_polish
+        has_state_flag = renamed_state_lithuanian
+      }
+    }
+    set_state_name = endo_state_94
+    clr_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_polish
+    clr_state_flag = renamed_state_lithuanian
+    set_province_name = {
+      id = 13736
+      name = endo_vp_13736
+    }
+  }
+  else_if = {
+    limit = {
+      state = 95
+      OR = {
+        has_state_flag = renamed_state_russian
+        has_state_flag = renamed_state_lithuanian
+      }
+    }
+    clr_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_lithuanian
+    set_state_name = endo_state_95
+    set_province_name = {
+      id = 560
+      name = endo_vp_560
+    }
+  }
+  else_if = {
+    limit = {
+      state = 96
+      NOT = {
+        has_state_flag = renamed_state_belarusian
+      }
+    }
+    clr_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_german
+    clr_state_flag = renamed_state_polish
+    set_state_name = "文尼察"  # Vilnja
+    set_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 3320
+      name = "文尼察"  # Vilnja
+    }
+    set_province_name = {
+      id = 3393
+      name = "格罗德诺"  # Horodno
+    }
+  }
+  else_if = {
+    limit = {
+      state = 97
+      NOT = {
+        has_state_flag = renamed_state_belarusian
+      }
+    }
+    clr_state_flag = renamed_state_lithuanian
+    clr_state_flag = renamed_state_russian
+    set_state_name = "别拉斯托克"  # Belastok
+    set_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 3254
+      name = "苏瓦尔基"  # Suvalki
+    }
+    set_province_name = {
+      id = 11301
+      name = "别拉斯托克"  # Belastok
+    }
+  }
+  else_if = {
+    limit = {
+      state = 194
+      has_state_flag = renamed_state_russian
+    }
+    set_state_name = endo_state_194
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6232
+      name = endo_vp_6232
+    }
+  }
+  else_if = {
+    limit = {
+      state = 204
+      has_state_flag = renamed_state_russian
+    }
+    set_state_name = endo_state_204
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3309
+      name = endo_vp_3309
+    }
+    set_province_name = {
+      id = 9359
+      name = endo_vp_9359
+    }
+  }
+  else_if = {
+    limit = {
+      state = 206
+      has_state_flag = renamed_state_russian
+    }
+    set_state_name = endo_state_206
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 294
+      name = endo_vp_294
+    }
+    set_province_name = {
+      id = 331
+      name = endo_vp_331
+    }
+    set_province_name = {
+      id = 11370
+      name = endo_vp_11370
+    }
+  }
+  else_if = {
+    limit = {
+      state = 207
+      OR = {
+        has_state_flag = renamed_state_russian
+        has_state_flag = renamed_state_lithuanian
+      }
+    }
+    set_state_name = endo_state_207
+    clr_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_lithuanian
+    set_province_name = {
+      id = 233
+      name = endo_vp_233
+    }
+  }
+  else_if = {
+    limit = {
+      state = 241
+      NOT = {
+        has_state_flag = renamed_state_belarusian
+      }
+    }
+    set_state_name = "霍梅尔"  # Homel
+    set_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 9288
+      name = "霍梅尔"  # Homel
+    }
+  }
+  else_if = {
+    limit = {
+      state = 242
+      NOT = {
+        has_state_flag = renamed_state_belarusian
+      }
+    }
+    set_state_name = "斯马连斯克"  # Smaliensk
+    set_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 306
+      name = "斯马连斯克"  # Smaliensk
+    }
+    set_province_name = {
+      id = 11336
+      name = "罗斯拉夫尔"  # Roslawl
+    }
+  }
+  else_if = {
+    limit = {
+      state = 243
+      NOT = {
+        has_state_flag = renamed_state_belarusian
+      }
+    }
+    set_state_name = "克里察乌"  # Kricaŭ
+    set_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 9247
+      name = "克里察乌"  # Kricaŭ
+    }
+  }
+  else_if = {
+    limit = {
+      state = 612
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_612_russian
+    clr_state_flag = renamed_state_chinese
+    set_state_flag = renamed_state_russian
+  }
+  else_if = {
+    limit = {
+      state = 755
+      NOT = {
+        has_state_flag = renamed_state_belarusian
+      }
+    }
+    set_state_name = "维捷布斯克"  # Viciebsk
+    set_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 6326
+      name = "波洛茨克"  # Polatsk
+    }
+    set_province_name = {
+      id = 11241
+      name = "维捷布斯克"  # Viciebsk
+    }
+  }
+  else_if = {
+    limit = {
+      state = 880
+      NOT = {
+        has_state_flag = renamed_state_belarusian
+      }
+    }
+    clr_state_flag = renamed_state_lithuanian
+    clr_state_flag = renamed_state_german
+    clr_state_flag = renamed_state_latvian
+    set_state_name = "德文斯克"  # Dzvinsk
+    set_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 310
+      name = "德文斯克"  # Dzvinsk
+    }
+  }
+  else_if = {
+    limit = {
+      state = 997
+      NOT = {
+        has_state_flag = renamed_state_belarusian
+      }
+    }
+    clr_state_flag = renamed_state_polish
+    clr_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_lithuanian
+    set_state_name = endo_state_997_belarusian
+    set_state_flag = renamed_state_belarusian
+  }
+  else_if = {
+    limit = {
+      state = 1087
+      has_state_flag = renamed_state_russian
+    }
+    set_state_name = endo_state_1087
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 9289
+      name = endo_vp_9289
+    }
+  }
+}
+do_ukrainian_renames_in_europe = {
+  if = {
+    limit = {
+      state = 73
+      NOT = {
+        has_state_flag = renamed_state_ukrainian
+      }
+    }
+    set_state_name = "外喀尔巴阡"  # Zakarpattia
+    clr_state_flag = renamed_state_slovak
+    clr_state_flag = renamed_state_german
+    clr_state_flag = renamed_state_polish
+    set_state_flag = renamed_state_ukrainian
+    set_province_name = {
+      id = 11691
+      name = "乌日霍罗德"  # Užhorod
+    }
+  }
+  else_if = {
+    limit = {
+      state = 78
+      NOT = {
+        has_state_flag = renamed_state_ukrainian
+      }
+    }
+    clr_state_flag = renamed_state_russian
+    set_state_name = "比萨拉比亚"  # Bessarabia
+    set_state_flag = renamed_state_ukrainian
+    set_province_name = {
+      id = 3707
+      name = "基希尼夫"  # Kyshyniv
+    }
+    set_province_name = {
+      id = 6727
+      name = "阿克曼"  # Akkerman
+    }
+  }
+  else_if = {
+    limit = {
+      state = 80
+      NOT = {
+        has_state_flag = renamed_state_ukrainian
+      }
+    }
+    clr_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_romanian
+    clr_state_flag = renamed_state_german
+    set_state_name = "切尔尼夫策"  # Chernivtsi
+    set_state_flag = renamed_state_ukrainian
+    set_province_name = {
+      id = 9548
+      name = "切尔尼夫策"  # Chernivtsi
+    }
+  }
+  else_if = {
+    limit = {
+      state = 89
+      NOT = {
+        has_state_flag = renamed_state_ukrainian
+      }
+    }
+    set_state_name = "斯坦尼斯拉维夫"  # Stanyslaviv
+    clr_state_flag = renamed_state_ukrainian
+    clr_state_flag = renamed_state_german
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11411
+      name = "斯坦尼斯拉维夫"  # Stanyslaviv
+    }
+  }
+  else_if = {
+    limit = {
+      state = 91
+      NOT = {
+        has_state_flag = renamed_state_ukrainian
+      }
+    }
+    set_state_name = "利维夫"  # Lviv
+    clr_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_german
+    set_state_flag = renamed_state_ukrainian
+    set_province_name = {
+      id = 11479
+      name = "利维夫"  # Lviv
+    }
+  }
+  else_if = {
+    limit = {
+      state = 93
+      OR = {
+        has_state_flag = renamed_state_russian
+        has_state_flag = renamed_state_polish
+        has_state_flag = renamed_state_belarusian
+      }
+    }
+    set_state_name = endo_state_93
+    clr_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_polish
+    clr_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 3392
+      name = endo_vp_3392
+    }
+  }
+  else_if = {
+    limit = {
+      state = 192
+      has_state_flag = renamed_state_russian
+    }
+    set_state_name = endo_state_192
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11670
+      name = endo_vp_11670
+    }
+  }
+  else_if = {
+    limit = {
+      state = 193
+      has_state_flag = renamed_state_russian
+    }
+    set_state_name = endo_state_193
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3568
+      name = endo_vp_3568
+    }
+  }
+  else_if = {
+    limit = {
+      state = 194
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = "莫济里"  # Mozyr
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6232
+      name = "莫济里"  # Mozyr
+    }
+  }
+  else_if = {
+    limit = {
+      state = 197
+      has_state_flag = renamed_state_russian
+    }
+    set_state_name = endo_state_197
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11546
+      name = endo_vp_11546
+    }
+  }
+  else_if = {
+    limit = {
+      state = 198
+      OR = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_198
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 9481
+      name = endo_vp_9481
+    }
+  }
+  else_if = {
+    limit = {
+      state = 199
+      OR = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_199
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 3457
+      name = endo_vp_3457
+    }
+  }
+  else_if = {
+    limit = {
+      state = 200
+      has_state_flag = renamed_state_russian
+    }
+    set_state_name = endo_state_200
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11405
+      name = endo_vp_11405
+    }
+  }
+  else_if = {
+    limit = {
+      state = 201
+      OR = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_201
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11514
+      name = endo_vp_11514
+    }
+  }
+  else_if = {
+    limit = {
+      state = 202
+      OR = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_202
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 525
+      name = endo_vp_525
+    }
+  }
+  else_if = {
+    limit = {
+      state = 203
+      OR = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_203
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 488
+      name = endo_vp_488
+    }
+  }
+  else_if = {
+    limit = {
+      state = 221
+      OR = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_221
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 418
+      name = endo_vp_418
+    }
+  }
+  else_if = {
+    limit = {
+      state = 226
+      has_state_flag = renamed_state_russian
+    }
+    set_state_name = endo_state_226
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11437
+      name = endo_vp_11437
+    }
+    set_province_name = {
+      id = 11561
+      name = endo_vp_11561
+    }
+  }
+  else_if = {
+    limit = {
+      state = 227
+      OR = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_227
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6474
+      name = endo_vp_6474
+    }
+    set_province_name = {
+      id = 9461
+      name = endo_vp_9461
+    }
+  }
+  else_if = {
+    limit = {
+      state = 228
+      has_state_flag = renamed_state_russian
+    }
+    set_state_name = endo_state_228
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 523
+      name = endo_vp_523
+    }
+  }
+  else_if = {
+    limit = {
+      state = 234
+      NOT = {
+        has_state_flag = renamed_state_ukrainian
+      }
+    }
+    set_state_name = endo_vp_3734_ukrainian
+    set_state_flag = renamed_state_ukrainian
+    set_province_name = {
+      id = 3734
+      name = endo_vp_3734_ukrainian
+    }
+  }
+  else_if = {
+    limit = {
+      state = 241
+      has_state_flag = renamed_state_belarusian
+    }
+    set_state_name = endo_state_241
+    clr_state_flag = renamed_state_belarusian
+    set_province_name = {
+      id = 9288
+      name = endo_vp_9288
+    }
+  }
+  else_if = {
+    limit = {
+      state = 713
+      NOT = {
+        has_state_flag = renamed_state_ukrainian
+      }
+    }
+    clr_state_flag = renamed_state_russian
+    clr_state_flag = renamed_state_romanian
+    clr_state_flag = renamed_state_german
+    set_state_name = "苏恰瓦"  # Suchava
+    set_state_flag = renamed_state_ukrainian
+    set_province_name = {
+      id = 6761
+      name = "苏恰瓦"  # Suchava
+    }
+  }
+  else_if = {
+    limit = {
+      state = 821
+      OR = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_821
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 453
+      name = endo_vp_453
+    }
+  }
+  else_if = {
+    limit = {
+      state = 791
+      OR = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_791
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 6455
+      name = endo_vp_6455
+    }
+  }
+  else_if = {
+    limit = {
+      state = 792
+      OR = {
+        has_state_flag = renamed_state_russian
+        has_state_flag = renamed_state_polish
+      }
+    }
+    set_state_name = endo_state_792
+    clr_state_flag = renamed_state_polish
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 11543
+      name = endo_vp_11543
+    }
+  }
+  else_if = {
+    limit = {
+      state = 997
+      OR = {
+        has_state_flag = renamed_state_polish
+        has_state_flag = renamed_state_lithuanian
+        has_state_flag = renamed_state_ukrainian
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_997
+    clr_state_flag = renamed_state_polish
+    clr_state_flag = renamed_state_lithuanian
+    clr_state_flag = renamed_state_ukrainian
+    clr_state_flag = renamed_state_russian
+  }
+  else_if = {
+    limit = {
+      state = 1088
+      NOT = {
+        has_state_flag = renamed_state_ukrainian
+      }
+    }
+    set_state_flag = renamed_state_ukrainian
+    set_state_name = "海乌姆"  # Cholm
+    clr_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 9452
+      name = "海乌姆"  # Cholm
+    }
+  }
+}
+do_russian_renames_in_north_america = {
+  if = {
+    limit = {
+      state = 463
+      NOT = {
+        has_state_flag = renamed_state_russian
+      }
+    }
+    set_state_name = endo_state_463_russian
+    clr_state_flag = renamed_state_japanese
+    set_state_flag = renamed_state_russian
+    set_province_name = {
+      id = 13090
+      name = endo_vp_13090_russian
+    }
+    set_province_name = {
+      id = 13091
+      name = endo_vp_13091_russian
+    }
+  }
+}

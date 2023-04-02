@@ -1,0 +1,136 @@
+﻿l_english:
+
+####################
+###最后警告，，，###
+####################
+
+####################
+##由于KR汉化使用了52汉化的内核，而52汉化内核用未知手段限制了翻译语句的生效，导致部分在原版游戏中出现的翻译语句被锁定。
+##为了在游戏中避免中文夹英文的情况，本文件将那些被52汉化内核锁定的“企业”文本挪到这里，以让其能够正确显示。
+##↑说的简单一点，就是有些“工厂/企业”的汉化文本被52汉化内核给锁定了，只能把文本放在这里才能起效，否则在游戏中就将一直是原版KR的英文。
+##所以，请之后的汉化人员注意，除非你重做了汉化内核，或者洋人改了代码，不然这里的文本尽量不要动，否则可能会导致游戏中乱码/中文不显示的问题。
+
+##AUS
+hirtenberger:0 "希滕贝格"
+AUS_hirtenberger:0 "希滕贝格"
+mavag:0 "马瓦格"
+HUN_mavag:0 "马瓦格"
+HUN_ganz_danubius:0 "冈茨·达努比乌斯"
+zbrojovka_brno:0 "布尔诺兵工厂"
+CZE_zbrojovka_brno:0 "布尔诺兵工厂"
+avia:0 "阿维亚"
+CZE_avia:0 "阿维亚"
+letov:1 "莱托夫"
+CZE_letov:0 "莱托夫"
+aero:0 "沃多乔迪航空"
+CZE_aero:0 "沃多乔迪航空"
+praga:0 "普拉加"
+CZE_praga:0 "普拉加"
+c_k_d:0 "Č-K-D"
+CZE_ckd:0 "Č-K-D"
+tatra:0 "太脱拉"
+CZE_tatra:0 "太脱拉"
+
+#AST
+AST_cockatoo_island:0 "鹦鹉岛海军造船厂"
+
+##CAN
+yarrow_shipbuilders:0 "亚罗造船厂"
+
+#BEl
+cockerill:0 "柯克里尔"
+renard:0 "雷纳德"
+avions_fairey:0 "费尔雷飞机公司"
+
+
+##Commune of France
+somua:0 "索玛"
+morane_saulnier:0 "莫拉纳·索尔尼埃"
+levasseur:0 "勒瓦瑟"
+fcm:0 "地中海冶金和造船厂"
+
+#National France
+schneider:0 "施耐德"
+bloch:0 "布洛赫"
+amiot:0 "阿米奥"
+
+##DEN
+disa:0 "丹麦工业综合制造厂"
+burmeister_wain:0 "伯迈斯特韦恩公司"
+
+#HOL
+hih_siderius:0 "HIH 西德里乌斯"
+HOL_hih_siderius:0 "HIH 西德里乌斯"
+philips:0 "飞利浦"
+HOL_philips:0 "飞利浦"
+fokker:0 "福克"
+HOL_fokker:0 "福克"
+koolhoven:0 "库尔霍芬" 
+HOL_koolhoven:0 "库尔霍芬"
+wilton_fijenoord:0 "威尔顿费诺德"
+HOL_wilton_fijenoord:0 "威尔顿费诺德"
+daf:0 "达夫"
+HOL_daf:0 "达夫"
+HOL_hol_daf:0 "达夫"
+HOL_DAF_trucks:0 "达夫"
+
+##JAP
+kawasaki:0 "川崎"
+sumitomo:0 "住友"
+osaka_army_arsenal:0 "大阪陆军兵工厂"
+nissan:0 "日产"
+mitsubishi:0 "三菱"
+aichi:0 "爱知"
+JAP_aichi:0 "爱知"
+nakajima:0 "中岛"
+yokosuka:0 "横须贺"
+yokosuka_naval_arsenal:0 "横须贺海军工厂"
+kure_naval_arsenal:0 "吴海军工厂"
+sasebo_naval_arsenal:0 "佐世保海军工厂"
+maizuru_naval_arsenal:0 "舞鹤海军工厂"
+
+##Princely Federation ###
+ordnance_factories_board:0 "兵工厂委员会"
+hindustan_aircraft:0 "印度斯坦航空"
+
+##United Kingdom
+royal_arsenal:0 "皇家兵工厂"
+
+##Union of Britain
+english_electric:0 "英国电器"
+vauxhall:0 "沃克斯豪尔"
+hawker:0 "霍克"
+supermarine:0 "超级马林工联"
+john_brown_company:0 "约翰·布朗公司工会"
+cammell_laird:0 "卡梅尔·莱尔德工会"
+
+##Germany
+krupp:0 "克虏伯股份公司"
+mauser:0 "毛瑟"
+rheinmetall:0 "莱茵金属"
+opel:0 "欧宝"
+porsche:0 "保时捷"
+dornier:0 "多尼尔"
+fieseler_company:0 "费舍尔"
+focke_wulf:0 "福克-沃尔夫"
+heinkel:0 "亨克尔"
+henschel:0 "亨舍尔"
+junkers:0 "容克斯"
+messerschmitt:0 "梅塞施密特"
+germaniawerft:0 "日耳曼尼亚造船厂"
+
+#Mexico
+MEX_tnca:0 "国家航空器工厂"
+MEX_pemex:0 "墨西哥石油公司"
+
+##Norway
+norsk_hydro:0 "挪威海德罗"
+tandbergs_radiofabrikk:0 "腾博无线电制造厂"
+NOR_norsk_hydro:0 "挪威海德罗"
+NOR_tandbergs_radiofabrikk:0 "腾博无线电制造厂"
+kongsberg:0 "孔斯贝格军械厂"
+kjeller_flyfabrikk:0 "谢勒飞机制造厂"
+
+##Sweden
+gotaverken:0 "约塔造船厂"
+kockums:0 "考库姆"

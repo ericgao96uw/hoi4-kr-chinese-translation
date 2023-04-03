@@ -3231,3 +3231,20 @@
  STATE_1094: "巴莱"
  STATE_1094_ENDONYM: "[1094.Controller.GetStateName_1094]"
  STATE_1094_ETHIOPIAN: "巴莱"
+
+ STATE_1095: "廷巴克图"
+ STATE_1095_ENDONYM: "[1095.Controller.GetStateName_1095]"
+ STATE_1095_FRENCH: "廷巴克图"
+
+ STATE_1096: "雅温得"
+ STATE_1096_ENDONYM: "[1096.Controller.GetStateName_1096]"
+ STATE_1096_FRENCH: "雅温得"
+ STATE_1096_GERMAN: "雅温得"
+
+ STATE_1097: "骷髅海岸"
+ STATE_1097_ENDONYM: "[1097.Controller.GetStateName_1097]"
+ STATE_1097_GERMAN: "库科费尔德"
+
+ STATE_1098: "纳马夸兰"
+ STATE_1098_ENDONYM: "[1098.Controller.GetStateName_1098]"
+ STATE_1098_GERMAN: "大纳马兰"

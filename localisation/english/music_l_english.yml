@@ -1,5 +1,8 @@
 ﻿l_english:
+ #This file is needed in order to allow the vanilla main theme to work alongside the kr one. The game doesn't seem to like loading the theme, having it overwritten then loading the same song under a new name. It leads to broken loc for said song.
  maintheme: "长城谣(Ballad of the Great Wall)"
+
+  # HOI4 Soundtrack
  main_vanilla: "主题曲 - 同盟国"
  axis_war_1: "轴心国主题曲"
  allies_peace_1: "D日的早晨"
@@ -22,6 +25,8 @@
  allies_peace_2: "旅程的终点"
  comintern_peace_3: "俄国胜利"
  general_peace_2: "战争结束"
+ 
+ # HOI2 Soundtrack
  achtungpanzer: "注意坦克！"
  astateofgrace: "恩典的状态"
  happymarch: "快乐行军"
@@ -38,6 +43,8 @@
  the101stairborne: "第101空降师"
  war: "战争"
  variationsontherussianthem: "俄罗斯主题变奏曲"
+ 
+ # HOI3 Soundtrack
  alliesfaction: "同盟阵营"
  alotofseactions: "海上行动"
  axis1march: "轴心国进行曲"
@@ -57,3 +64,4 @@
  unitednations: "联合国"
  unitylow: "低凝聚力"
  wearefree: "我们自由了"
+ 

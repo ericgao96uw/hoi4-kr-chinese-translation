@@ -1,4 +1,5 @@
 ﻿l_english:
+ ### EQUIPMENT MODULE CATEGORIES ###
  EQ_MOD_CAT_ship_light_battery_TITLE: "速射炮"
  EQ_MOD_CAT_ship_sub_snorkel_TITLE: "通气管"
  EQ_MOD_CAT_ship_torpedo_TITLE: "鱼雷发射器"
@@ -31,6 +32,8 @@
  EQ_MOD_CAT_ship_mine_layer_TITLE: "布雷装置"
  EQ_MOD_CAT_dp_light_battery_TITLE: "高平两用炮"
  EQ_MOD_CAT_ship_dp_secondaries_TITLE: "高平两用副炮"
+ 
+ ### EQUIPMENT MODULE SLOTS ###
  EQ_MOD_SLOT_fixed_ship_battery_slot_TITLE: "炮组"
  EQ_MOD_SLOT_fixed_ship_secondaries_slot_TITLE: "副炮"
  EQ_MOD_SLOT_fixed_ship_anti_air_slot_TITLE: "防空"
@@ -48,6 +51,8 @@
  EQ_MOD_SLOT_mid_3_custom_slot_TITLE: "中段自选装备3"
  EQ_MOD_SLOT_rear_1_custom_slot_TITLE: "舰尾自选装备1"
  EQ_MOD_SLOT_rear_2_custom_slot_TITLE: "舰尾自选装备2"
+ 
+ ### EQUIPMENT MODULES ###
  ship_light_battery_1: "85mm速射炮"
  ship_light_battery_1_short: "轻型炮组 I"
  ship_light_battery_1_desc: "一种相对小些的火炮，用于驱逐舰和其他小型船只。"
@@ -323,3 +328,4 @@
  ship_armor_carrier_deck_short: "飞行甲板装甲"
  ship_armor_carrier_deck_desc: "重型装甲板可以在牺牲机库空间的前提下保护机库不受敌方轰炸机的伤害。"
  SHIP_DESIGNER_MODULE_SELECTION: "§H模块槽位：§! $NAME$\n选择一个模块："
+ 

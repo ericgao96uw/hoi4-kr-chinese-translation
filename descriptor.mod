@@ -1,4 +1,4 @@
-version="0.24.1CN"
+version="0.24.2CN"
 tags={
 	"Translation"
 }
@@ -9,6 +9,5 @@ dependencies={
 	"Kaiserreich Music - Kaisercat"
 }
 picture="thumbnail.png"
-name="Kaiserreich(CN.Ver)"
+name="Kaiserreich Chinese Version"
 supported_version="1.12.11"
-remote_file_id="2946487287"

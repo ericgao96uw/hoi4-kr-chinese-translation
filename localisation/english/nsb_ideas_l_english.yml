@@ -71,6 +71,7 @@
  officers_clique_spirit_desc: "他们也许是飞行员，但他们仍然是个人，对吧？"
  not_worth_the_risk_spirit: "不值得冒险"
  not_worth_the_risk_spirit_desc: "你知道的，飞机真的很贵。"
+ 
  merchant_mariners_spirit: "商船队"
  merchant_mariners_spirit_desc: "航海技术对我们来说是第二天性。"
  naval_wargames_spirit: "海军演习"
@@ -295,5 +296,6 @@
  air_force_academy_spirit: "空军学院精神"
  air_force_spirit: "空军精神"
  air_force_command_spirit: "空军指挥精神"
+
  heritage_of_accomplishment: "成就传承"
  heritage_of_accomplishment_desc: "我们军团的历史和成就乃是士兵们英雄履历的明证。通过习惯性地认可功劳伟绩，即使是最普通的战士也会因渴望伟大而奋勇争先。"
